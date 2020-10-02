@@ -1,6 +1,6 @@
 # Rails React CRUD App
 
-This is the basic Create( C ), Read( R ), Update( U ) and Delete( D ) Rails React Web Application.
+Ruby on Rails 6 + ReactJS CRUD Application.
  
 ## Project setup
  ### Ruby on Rails
