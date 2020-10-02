@@ -38,4 +38,7 @@ Visit http://localhost:3000 to see the running website.
 
 ## Tutorial  
 See this tutorial to start from group up.
+
 https://rubyinrails.com/2019/11/19/rails-react-js-application-with-crud-operation/
+
+In this projec we changed some code so you can start integration rapidly by removing hello_world controllers, views and react components.
