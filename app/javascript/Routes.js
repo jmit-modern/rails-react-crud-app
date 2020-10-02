@@ -4,7 +4,7 @@ import {
   Switch,
   Route,
 } from "react-router-dom";
-import HelloWorld from './bundles/HelloWorld/components/HelloWorld';
+// import HelloWorld from './bundles/HelloWorld/components/HelloWorld';
 import Posts from './bundles/posts/index';
 import PostDetails from './bundles/posts/PostDetails';
 import CreatePost from './bundles/posts/CreatePost';
@@ -16,21 +16,9 @@ export default () => {
       <Route exact path="/">
         <Posts />
       </Route>
-      <Route
-        path="/posts/new"
-        exact
-        component={CreatePost}
-       />
-      <Route
-        path="/posts/:id"
-        exact
-        component={PostDetails}
-       />
-      <Route
-        path="/posts/:id/edit"
-        exact
-        component={UpdatePost}
-       />
+      <Route  path="/posts/new" exact component={CreatePost} />
+      <Route path="/posts/:id" exact component={PostDetails} />
+      <Route path="/posts/:id/edit" exact component={UpdatePost} />
     </Switch>
   );
 }
